@@ -1,0 +1,244 @@
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <title>_coffee shop</title>
+     <style>
+          @import url('https://fonts.cdnfonts.com/css/airbnb-cereal-app');
+     </style>
+</head>
+
+<body>
+     <!-- container bootstrap -->
+     <div class="container">
+          <div class="header">
+               <h1>Food Items</h1>
+               <div class="search"><a href="#"><img src="img/magnifying-glass.svg" alt="img"> </a></div>
+               <div class="menu"> <a href="#"><img src="img/menu (1).svg" alt="img"></a> </div>
+          </div>
+          <div class="listfoods">
+                    
+               <div class="list1">
+                    <a href="#"><img src="img/1.png" alt=""></a>
+                    <p>Expresso </p>
+                    <h4>Rp.10.000</h4>
+               </div>
+               <div class="list2">
+                    <a href="#"><img src="img/2.png" alt=""></a>
+                    <p>Coffee Latte</p>
+                    <h4>Rp.15.000</h4>
+               </div>
+               <div class="list3">
+                    <a href="#"><img src="img/3.png" alt=""></a>
+                    <p>Cappucino</p>
+                    <h4>Rp.5.000</h4>
+               </div>
+               <div class="list4">
+                    <a href="#"><img src="img/4.png" alt=""></a>
+                    <p>Red Velvet Latte</p>
+                    <h4>Rp.33.000</h4>
+               </div>
+               <div class="list5">
+                    <a href="#"><img src="img/5.png" alt=""></a>
+                    <p>Chocu Rhum</p>
+                    <h4>Rp.28.000</h4>
+               </div>
+               <div class="list6">
+                    <a href="#"><img src="img/6.png" alt=""></a>
+                    <p>Black Forest</p>
+                    <h4>Rp.30.000</h4>
+               </div>
+               <div class="list7">
+                    <a href="#"><img src="img/7.png" alt=""></a>
+                    <p>Chicken Katsu Dabu-dabu</p>
+                    <h4>Rp.60.000</h4>
+               </div>
+               <div class="list8">
+                    <a href="#"><img src="img/8.png" alt=""></a>
+                    <p>Salmon Truflle Teriyakin</p>
+                    <h4>Rp.69.000</h4>
+               </div>
+               <div class="list9">
+                    <a href="#"><img src="img/9.png" alt=""> </a>
+                    <p>Wiener Forest</p>
+                    <h4>Rp.50.000</h4>
+               </div>
+               <div class="list10">
+                    <a href=""><img src="img/10.jpg" alt=""> </a>
+                    <p>Cake Flowers</p>
+                    <h4>Rp.25.000</h4>
+               </div>
+               <div class="list11">
+                    <a href="#"><img src="img/11.jpg" alt=""> </a>
+                    <p>Desert Yummy</p>
+                    <h4>Rp.8.000</h4>
+               </div>
+               <div class="list12">
+                    <a href="#"><img src="img/12.jpg" alt=""> </a>
+                    <p>Sprite Coco Drint</p>
+                    <h4>Rp.10.000</h4>
+               </div>
+          </div>
+          <div class="sidebar">
+               <aside>
+                    <a href="http://127.0.0.1:5500/Bootstrap/index.html"><img src="img/fork.svg" alt="img1" style="border: #007BFF solid;"></a>
+                    <p style="background-color: #DC3545;">Foods</p>
+                    <a href="http://127.0.0.1:5500/Bootstrap/history.html" id = hide><img src="img/clipboard.svg" alt="img2"></a>
+                    <p>History</p>
+                    <button id = hide type="menu" data-toggle="modal" data-target="#AddData"><img src="img/add.svg" alt="img3"></button>
+               </aside>
+          </div>
+          <div class="headercart">
+               <aside>
+                    <h1>Cart</h1>
+                    <p>3</p>
+               </aside>
+               <div class="cart">
+                    <div class="order1">
+                         <img src="/img/2.png" alt="img1">
+                         <p>Coffee Latte</p>
+                         <h4>Rp.15.000</h4>
+                         <div class="btn-group" role="group" aria-label="Second group id" id="plus">
+                              <button type="button" class="btn btn-outline-success" id="plus1"><STrong>-</STrong></button>
+                              <h2><u>1</u></h2>
+                              <button type="button" class="btn btn-outline-success"id="plus2"><STrong>+</STrong></button>
+                         </div>
+                    </div>
+                    <div class="order2">
+                         <img src="/img/6.png" alt="img2">
+                         <p>Black Forest</p>
+                         <h4>Rp.30.000</h4>
+                         <div class="btn-group" role="group" aria-label="Second group id" id="plus">
+                              <button type="button" class="btn btn-outline-success" id="plus1"><STrong>-</STrong></button>
+                              <h2><u>1</u></h2>
+                              <button type="button" class="btn btn-outline-success"id="plus2"><STrong>+</STrong></button>
+                         </div>
+                    </div>
+                    <div class="order3">
+                         <img src="/img/8.png" alt="img3">
+                         <p>Salmon Truflle</p>
+                         <h4>Rp.60.000</h4>
+                         <div class="btn-group" role="group" aria-label="Second group id" id="plus">
+                              <button type="button" class="btn btn-outline-success" id="plus1"><STrong>-</STrong></button>
+                              <h2><u>1</u></h2>
+                              <button type="button" class="btn btn-outline-success"id="plus2"><STrong>+</STrong></button>
+                         </div>
+                    </div>
+                    <div class="total">
+                         <p>Total:</p>
+                         <h4>Rp. 105.000</h4>
+                         <h5>*Belum termasuk ppn</h5>
+                    </div>
+                    <button type="button" class="btn btn-outline-primary btn-lg" id="checkout" data-toggle="modal" data-target="#pay" >Checkout</button>
+                    <button type="button" class="btn btn-danger" id="cancel">Cancel</button>
+               </div>
+          </div>
+     </div>
+     <!-- modal payment-->
+     <div class="modal fade" id="pay" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4>Receipt no: #010410919</h4>
+                <h5 class="modal-title" id="staticBackdropLabel">Checkout </br><p>Cashier: Pevita Pearce</p></h5>
+              </div>
+              <div class="modal-body">
+                    <div class="body1">
+                         <p>Coffee Latte 1x</p>
+                         <h5>Rp. 15.000</h5>
+                    </div>
+                    <div class="body2">
+                         <p>Black Forest 1x</p>
+                         <h5>Rp. 30.000</h5>
+                    </div>
+                    <div class="body3">
+                         <p>Salmon Truffle Teriyaki 1x</p>
+                     <h5>Rp. 60.000</h5>
+                    </div>
+                    <div class="body4">
+                         <p>ppn 10%</p>
+                         <h5>Rp. 10.500</h5>
+                    </div>
+                    <div class="body5">
+                         <p>Total: </p>
+                         <h5>Rp. 115.500</h5>
+                    </div>
+                    <div class="payment">
+                         <p>Payment: </p>
+                         <select  name="select-payment" id="payment" required>
+                              <option disabled selected>Choose...</option>
+                              <option> Bank Transfer</option>
+                              <option> Cash </option>
+                              <option>E-Money</option>
+                         </select>
+                    </div>
+                <!-- <h4>Payment Cash</h4> -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" id="edit" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger">Print</button>
+                <button type="button" class="btn btn-primary">Send Email</button>
+              </div>
+            </div>
+          </div>
+     </div>  
+     <!-- modal AddData -->
+     <div class="modal fade" id="AddData" tabindex="-1" aria-labelledby="" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="title">Add Items</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: white;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                    <p>Name</p>
+                    <input type="text" class="form-control" id="input1">
+                    <p>Image</p>
+                    <div class="input-group" id="input2">
+                         <div class="custom-file">
+                           <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                           <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                         </div>
+                         <div class="input-group-append">
+                           <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">OK!</button>
+                         </div>
+                       </div>
+                    <p>Price</p>
+                    <div class="input-group mb-3" id="input3">
+                         <div class="input-group-prepend">
+                           <span class="input-group-text">Rp.</span>
+                         </div>
+                         <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                       </div>
+                    <p>Category</p>
+                    <select name="category" id="input4">
+                         <option disabled selected> Category</option>
+                         <option> Foods</option>
+                         <option> Drinks</option>
+                         <option> Cakes</option>
+                         <option> Other</option>
+                    </select>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" id="Add">Cancel</button>
+                <button type="button" class="btn btn-primary" id="Add">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
